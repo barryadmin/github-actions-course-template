@@ -2,7 +2,7 @@ name: Team approval workflow
 on: pull_request_review
 
 jobs:
-  labelWhenApproved:job_id:
+  labelWhenApproved:
    runs-on: ubuntu-latest
    steps:
     - name: Label approved pull requests
